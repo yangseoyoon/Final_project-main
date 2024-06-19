@@ -84,7 +84,7 @@ top: 0;
 .container p {
   font-weight: bold;
   font-size: medium;
-  display: flex;
+
   margin-inline: 10px;
   margin-bottom: 0;
   color: #656566;

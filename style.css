@@ -208,3 +208,18 @@ top: 0;
 .container-b .nth-3 {
   margin-top: 10px;
 }
+
+
+.text-link a:link {
+  color: #656566;
+}
+
+.text-link a:visited {
+  color: #656566;
+}
+
+.text-link a:hover {
+  color: #dbdde0;
+  transition: all 200ms ease-out;
+  animation-duration: 5s;
+}

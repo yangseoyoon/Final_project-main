@@ -28,6 +28,8 @@ p {
 }
 .animated-title {
   position: relative;
+  position: fixed;
+  top: 0p;
   background-color: #fafaf5;
   width: 100%;
   overflow: hidden;

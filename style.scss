@@ -29,7 +29,7 @@ p {
 .animated-title {
   position: relative;
   position: fixed;
-  top: 0p;
+  top: 10;
   left: 0;
   right: 0;
   background-color: #fafaf5;
@@ -41,8 +41,9 @@ p {
 .animated-text {
   position: fixed;
   z-index: 1000;
-  top: 0;
+  top: 10;
   left: 0;
+ right: 0;
   background-color: #fafaf5;
 
   display: inline-block;

@@ -83,10 +83,11 @@ p {
 }
 
 .container p {
+
   font-weight: bold;
-  font-size: medium;
-  display: flex;
-  margin-inline: 10px;
+  font-size:large;
+  padding-inline: auto;
+  margin-inline: auto;
   margin-bottom: 0;
   color: #656566;
 }

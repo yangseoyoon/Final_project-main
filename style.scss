@@ -30,6 +30,8 @@ p {
   position: relative;
   position: fixed;
   top: 0p;
+  left: 0;
+  right: 0;
   background-color: #fafaf5;
   width: 100%;
   overflow: hidden;
@@ -188,6 +190,7 @@ p {
 }
 
 .container-b p {
+  margin-bottom: 0;
   padding-inline: 0;
   margin-inline: 0;
   color: #d1d1d1;

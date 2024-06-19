@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 h1,
 h2,
 h3,
@@ -21,7 +20,8 @@ p {
 }
 
 body {
-  margin: 0;  color: #656566;
+  margin: 0;
+  color: #656566;
   font-size: 1.125rem;
   line-height: 150%;
   background-color: #f5f5f5;
@@ -46,7 +46,7 @@ body {
   z-index: 1000;
   top: 10;
   left: 0;
- right: 0;
+  right: 0;
   background-color: #fafaf5;
 
   display: inline-block;
@@ -68,11 +68,15 @@ body {
   padding-inline: 1.5rem;
   margin-inline: auto;
   text-align: center;
+  align-items: center;
   margin-block: auto;
 }
 
-img{margin-top:50px
-margin:20px;}
+img {
+  margin-top: 10px;
+  margin: 20px;
+  padding: 10px;
+}
 
 .title {
   display: flex;
@@ -80,4 +84,5 @@ margin:20px;}
   align-items: center;
   justify-content: space-between;
   padding-block: 0;
-  padding-inline: 10px;}
+  padding-inline: 10px;
+}

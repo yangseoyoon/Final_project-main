@@ -34,7 +34,7 @@ p {
   left: 0;
   right: 0;
   display: inline-block;
-  background-color: #fafaf5;
+ 
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
@@ -74,7 +74,7 @@ p {
 
 .header {
   width: 100%;
-  display: flex;
+  text-align: center;
   padding-block: 5px;
   padding-inline: 0;
   margin-inline: 0;

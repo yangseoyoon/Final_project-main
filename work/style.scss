@@ -28,6 +28,10 @@ p {
 }
 .animated-title {
   position: relative;
+  position: fixed;
+  top: 10;
+  left: 0;
+  right: 0;
   background-color: #fafaf5;
   width: 100%;
   overflow: hidden;
@@ -37,8 +41,9 @@ p {
 .animated-text {
   position: fixed;
   z-index: 1000;
-  top: 0;
+  top: 10;
   left: 0;
+ right: 0;
   background-color: #fafaf5;
 
   display: inline-block;
@@ -98,6 +103,7 @@ p {
   max-width: 100%;
   padding: 30px;
   padding-inline: 50px;
+  padding-bottom: 80px;
   margin: auto;
 }
 
@@ -108,6 +114,8 @@ p {
   padding: 10px;
   background-color: #dbdde0;
   border-radius: 10px;
+  padding-inline: 60px;
+  margin-bottom: 80px;
 }
 
 .card {
@@ -153,6 +161,9 @@ p {
 
 .text-b {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+
 }
 
 .container-p {
@@ -165,9 +176,6 @@ p {
   background-color: #dbdde0;
 }
 
-.profile-tool {
-  text-align: right;
-}
 
 .container-b {
   display: flex;
@@ -182,6 +190,7 @@ p {
 }
 
 .container-b p {
+  margin-bottom: 0;
   padding-inline: 0;
   margin-inline: 0;
   color: #d1d1d1;

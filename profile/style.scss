@@ -27,5 +27,8 @@ p {
 }
 
 .container {
-  display: flex;
+  max-width: 100%;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+  text-align: center;
 }

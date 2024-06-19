@@ -103,6 +103,7 @@ p {
   max-width: 100%;
   padding: 30px;
   padding-inline: 50px;
+  padding-bottom: 80px;
   margin: auto;
 }
 
@@ -161,7 +162,8 @@ p {
 .text-b {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+
 }
 
 .container-p {
@@ -174,9 +176,6 @@ p {
   background-color: #dbdde0;
 }
 
-.profile-tool {
-  text-align: right;
-}
 
 .container-b {
   display: flex;

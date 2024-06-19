@@ -41,7 +41,7 @@ p {
 
 .animated-text {
   font-weight: 400;
-  font-size: small;
+ 
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -49,7 +49,7 @@ p {
   right: 0;
   background-color: #fafaf5;
 
-  display: inline-block;
+
   
   animation: scrolltext 20s linear infinite;
 }
